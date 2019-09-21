@@ -10,5 +10,7 @@ def my_all?(collection)
   
   if block_retrun_values.include?(false)
     return false 
+  else 
+    return true 
   end 
 end
